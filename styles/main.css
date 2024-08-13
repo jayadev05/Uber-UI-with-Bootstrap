@@ -1,0 +1,56 @@
+@font-face {
+  font-family: Uber;
+  src: url(UberMoveBold.otf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Uber;
+  
+  
+}
+footer{
+  color: rgb(215, 215, 215);
+  padding: 3rem;
+}
+a{
+  text-decoration: none;
+  color: rgb(233, 233, 233);
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+.left-aligned-section{
+padding: 5rem;
+}
+
+.order-1{
+  order: 1;
+}
+.order-2{
+  order: 2;
+}
+.icon-box{
+  display: flex;
+  gap: 5rem;
+  font-size: 1rem;
+}
+.privacy-row{
+  width: 100%;
+  /* background-color: brown; */
+  margin-top: 4rem;
+}
+.privacy-col{
+  display: flex;
+  gap: 2rem;
+}
+.landscape-heading{
+  font-size: 3.5rem;
+}
+@media (width<597px) {
+  .get-onstore{
+  width: 100%;
+  }
+}
