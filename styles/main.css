@@ -26,20 +26,12 @@ html,body{
 padding: 5rem;
 }
 
-.order-1{
-  order: 1;
-}
-.order-2{
-  order: 2;
-}
 .icon-box{
   display: flex;
   gap: 5rem;
   font-size: 1rem;
 }
 .privacy-row{
-  width: 100%;
-  /* background-color: brown; */
   margin-top: 4rem;
 }
 .privacy-col{
@@ -49,8 +41,18 @@ padding: 5rem;
 .landscape-heading{
   font-size: 3.5rem;
 }
+.mb{
+  margin-bottom: 2rem;
+}
 @media (width<597px) {
   .get-onstore{
   width: 100%;
   }
+  .right-aligned-con{
+    display: flex;
+  }
+  .right-aligned-elm-1{
+    order: 2;
+  }
+ 
 }
