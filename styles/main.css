@@ -54,5 +54,13 @@ padding: 5rem;
   .right-aligned-elm-1{
     order: 2;
   }
+  .icon-box{
+    gap: 4rem;
+  }
+  .lang-loc{
+    padding-right: 6rem;
+    gap: 1rem;
+    /* background: #ca2828; */
+  }
  
 }
